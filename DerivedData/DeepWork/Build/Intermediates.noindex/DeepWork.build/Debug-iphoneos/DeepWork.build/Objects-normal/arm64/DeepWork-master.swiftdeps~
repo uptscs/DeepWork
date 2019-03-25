@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.0 (swiftlang-1001.0.60.3 clang-1001.0.37.8)"
+options: "fea2be3f7bdb9d26760eb53c1eb467e6"
+build_time: [1553347700, 455192000]
+inputs:
+  "/Users/upendratripathi/Research/App Ideas/DeepWork/DeepWork/SelectionOptionViewController.swift": [1553238973, 722553405]
+  "/Users/upendratripathi/Research/App Ideas/DeepWork/DeepWork/UPTHelper.swift": [1553339995, 798801546]
+  "/Users/upendratripathi/Research/App Ideas/DeepWork/DeepWork/TemplatesViewController.swift": [1553241144, 122382307]
+  "/Users/upendratripathi/Research/App Ideas/DeepWork/DeepWork/TodayViewController.swift": [1553337379, 280460100]
+  "/Users/upendratripathi/Research/App Ideas/DeepWork/DeepWork/FullScreenCounterViewController.swift": [1553344662, 97960317]
+  "/Users/upendratripathi/Research/App Ideas/DeepWork/DeepWork/AppDelegate.swift": [1551876482, 709143349]

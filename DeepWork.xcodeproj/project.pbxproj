@@ -1,0 +1,827 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		736DC9397E165B541A94AA2D /* libPods-DeepWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD777F196F68FA6B061334EE /* libPods-DeepWork.a */; };
+		F85EA86F222FF902002DC5EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85EA86E222FF902002DC5EB /* AppDelegate.swift */; };
+		F85EA874222FF902002DC5EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85EA872222FF902002DC5EB /* Main.storyboard */; };
+		F85EA876222FF903002DC5EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85EA875222FF903002DC5EB /* Assets.xcassets */; };
+		F85EA879222FF903002DC5EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85EA877222FF903002DC5EB /* LaunchScreen.storyboard */; };
+		F85EA884222FF903002DC5EB /* DeepWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85EA883222FF903002DC5EB /* DeepWorkTests.swift */; };
+		F85EA88F222FF903002DC5EB /* DeepWorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85EA88E222FF903002DC5EB /* DeepWorkUITests.swift */; };
+		F85EA89D222FFA22002DC5EB /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85EA89C222FFA22002DC5EB /* TodayViewController.swift */; };
+		F85EA8A5223000E3002DC5EB /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85EA8A4223000E3002DC5EB /* NotificationCenter.framework */; };
+		F85EA8A8223000E3002DC5EB /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85EA8A7223000E3002DC5EB /* TodayViewController.swift */; };
+		F85EA8AB223000E3002DC5EB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85EA8A9223000E3002DC5EB /* MainInterface.storyboard */; };
+		F85EA8AF223000E3002DC5EB /* Deep Work.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F85EA8A2223000E3002DC5EB /* Deep Work.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F878D1842244B129009715D0 /* SelectionOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F878D1832244B129009715D0 /* SelectionOptionViewController.swift */; };
+		F8ECE10A224632E4001500E6 /* FullScreenCounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ECE109224632E4001500E6 /* FullScreenCounterViewController.swift */; };
+		F8ECE10E22463500001500E6 /* UPTHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ECE10D22463500001500E6 /* UPTHelper.swift */; };
+		F8ECE10F22464154001500E6 /* UPTHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ECE10D22463500001500E6 /* UPTHelper.swift */; };
+		F8F5622122300E520078AD40 /* TemplatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F5622022300E520078AD40 /* TemplatesViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F85EA880222FF903002DC5EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F85EA863222FF902002DC5EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F85EA86A222FF902002DC5EB;
+			remoteInfo = DeepWork;
+		};
+		F85EA88B222FF903002DC5EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F85EA863222FF902002DC5EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F85EA86A222FF902002DC5EB;
+			remoteInfo = DeepWork;
+		};
+		F85EA8AD223000E3002DC5EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F85EA863222FF902002DC5EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F85EA8A1223000E3002DC5EB;
+			remoteInfo = Today;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F85EA8B3223000E3002DC5EB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F85EA8AF223000E3002DC5EB /* Deep Work.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5C1CE1E1476A8B9A2048C262 /* Pods-DeepWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeepWork/Pods-DeepWork.release.xcconfig"; sourceTree = "<group>"; };
+		AD76F5C501FADF22764C0B83 /* Pods-DeepWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeepWork/Pods-DeepWork.debug.xcconfig"; sourceTree = "<group>"; };
+		AD777F196F68FA6B061334EE /* libPods-DeepWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DeepWork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85EA86B222FF902002DC5EB /* DeepWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85EA86E222FF902002DC5EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F85EA873222FF902002DC5EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F85EA875222FF903002DC5EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F85EA878222FF903002DC5EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F85EA87A222FF903002DC5EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F85EA87F222FF903002DC5EB /* DeepWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85EA883222FF903002DC5EB /* DeepWorkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepWorkTests.swift; sourceTree = "<group>"; };
+		F85EA885222FF903002DC5EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F85EA88A222FF903002DC5EB /* DeepWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85EA88E222FF903002DC5EB /* DeepWorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepWorkUITests.swift; sourceTree = "<group>"; };
+		F85EA890222FF903002DC5EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F85EA89C222FFA22002DC5EB /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		F85EA8A2223000E3002DC5EB /* Deep Work.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Deep Work.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85EA8A4223000E3002DC5EB /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		F85EA8A7223000E3002DC5EB /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		F85EA8AA223000E3002DC5EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		F85EA8AC223000E3002DC5EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F878D1832244B129009715D0 /* SelectionOptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SelectionOptionViewController.swift; path = "/Users/upendratripathi/Research/App Ideas/DeepWork/DeepWork/SelectionOptionViewController.swift"; sourceTree = "<absolute>"; };
+		F8A50E2E2230033F00625A95 /* DeepWork.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DeepWork.entitlements; sourceTree = "<group>"; };
+		F8A50E2F223003E700625A95 /* Today.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Today.entitlements; sourceTree = "<group>"; };
+		F8ECE109224632E4001500E6 /* FullScreenCounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCounterViewController.swift; sourceTree = "<group>"; };
+		F8ECE10D22463500001500E6 /* UPTHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPTHelper.swift; sourceTree = "<group>"; };
+		F8F5622022300E520078AD40 /* TemplatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatesViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F85EA868222FF902002DC5EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				736DC9397E165B541A94AA2D /* libPods-DeepWork.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85EA87C222FF903002DC5EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85EA887222FF903002DC5EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85EA89F223000E3002DC5EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85EA8A5223000E3002DC5EB /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBAD9E1A84515C0A5152D42D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD76F5C501FADF22764C0B83 /* Pods-DeepWork.debug.xcconfig */,
+				5C1CE1E1476A8B9A2048C262 /* Pods-DeepWork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F85EA862222FF902002DC5EB = {
+			isa = PBXGroup;
+			children = (
+				F85EA86D222FF902002DC5EB /* DeepWork */,
+				F85EA882222FF903002DC5EB /* DeepWorkTests */,
+				F85EA88D222FF903002DC5EB /* DeepWorkUITests */,
+				F85EA8A6223000E3002DC5EB /* Today */,
+				F85EA8A3223000E3002DC5EB /* Frameworks */,
+				F85EA86C222FF902002DC5EB /* Products */,
+				CBAD9E1A84515C0A5152D42D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F85EA86C222FF902002DC5EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F85EA86B222FF902002DC5EB /* DeepWork.app */,
+				F85EA87F222FF903002DC5EB /* DeepWorkTests.xctest */,
+				F85EA88A222FF903002DC5EB /* DeepWorkUITests.xctest */,
+				F85EA8A2223000E3002DC5EB /* Deep Work.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F85EA86D222FF902002DC5EB /* DeepWork */ = {
+			isa = PBXGroup;
+			children = (
+				F8ECE109224632E4001500E6 /* FullScreenCounterViewController.swift */,
+				F8ECE10D22463500001500E6 /* UPTHelper.swift */,
+				F8A50E2E2230033F00625A95 /* DeepWork.entitlements */,
+				F85EA86E222FF902002DC5EB /* AppDelegate.swift */,
+				F878D1832244B129009715D0 /* SelectionOptionViewController.swift */,
+				F85EA872222FF902002DC5EB /* Main.storyboard */,
+				F8F5622022300E520078AD40 /* TemplatesViewController.swift */,
+				F85EA89C222FFA22002DC5EB /* TodayViewController.swift */,
+				F85EA875222FF903002DC5EB /* Assets.xcassets */,
+				F85EA877222FF903002DC5EB /* LaunchScreen.storyboard */,
+				F85EA87A222FF903002DC5EB /* Info.plist */,
+			);
+			path = DeepWork;
+			sourceTree = "<group>";
+		};
+		F85EA882222FF903002DC5EB /* DeepWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				F85EA883222FF903002DC5EB /* DeepWorkTests.swift */,
+				F85EA885222FF903002DC5EB /* Info.plist */,
+			);
+			path = DeepWorkTests;
+			sourceTree = "<group>";
+		};
+		F85EA88D222FF903002DC5EB /* DeepWorkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F85EA88E222FF903002DC5EB /* DeepWorkUITests.swift */,
+				F85EA890222FF903002DC5EB /* Info.plist */,
+			);
+			path = DeepWorkUITests;
+			sourceTree = "<group>";
+		};
+		F85EA8A3223000E3002DC5EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F85EA8A4223000E3002DC5EB /* NotificationCenter.framework */,
+				AD777F196F68FA6B061334EE /* libPods-DeepWork.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F85EA8A6223000E3002DC5EB /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				F8A50E2F223003E700625A95 /* Today.entitlements */,
+				F85EA8A7223000E3002DC5EB /* TodayViewController.swift */,
+				F85EA8A9223000E3002DC5EB /* MainInterface.storyboard */,
+				F85EA8AC223000E3002DC5EB /* Info.plist */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F85EA86A222FF902002DC5EB /* DeepWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85EA893222FF903002DC5EB /* Build configuration list for PBXNativeTarget "DeepWork" */;
+			buildPhases = (
+				75077F29E4480A2E3A54D2F1 /* [CP] Check Pods Manifest.lock */,
+				F85EA867222FF902002DC5EB /* Sources */,
+				F85EA868222FF902002DC5EB /* Frameworks */,
+				F85EA869222FF902002DC5EB /* Resources */,
+				F85EA8B3223000E3002DC5EB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F85EA8AE223000E3002DC5EB /* PBXTargetDependency */,
+			);
+			name = DeepWork;
+			productName = DeepWork;
+			productReference = F85EA86B222FF902002DC5EB /* DeepWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F85EA87E222FF903002DC5EB /* DeepWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85EA896222FF903002DC5EB /* Build configuration list for PBXNativeTarget "DeepWorkTests" */;
+			buildPhases = (
+				F85EA87B222FF903002DC5EB /* Sources */,
+				F85EA87C222FF903002DC5EB /* Frameworks */,
+				F85EA87D222FF903002DC5EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F85EA881222FF903002DC5EB /* PBXTargetDependency */,
+			);
+			name = DeepWorkTests;
+			productName = DeepWorkTests;
+			productReference = F85EA87F222FF903002DC5EB /* DeepWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F85EA889222FF903002DC5EB /* DeepWorkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85EA899222FF903002DC5EB /* Build configuration list for PBXNativeTarget "DeepWorkUITests" */;
+			buildPhases = (
+				F85EA886222FF903002DC5EB /* Sources */,
+				F85EA887222FF903002DC5EB /* Frameworks */,
+				F85EA888222FF903002DC5EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F85EA88C222FF903002DC5EB /* PBXTargetDependency */,
+			);
+			name = DeepWorkUITests;
+			productName = DeepWorkUITests;
+			productReference = F85EA88A222FF903002DC5EB /* DeepWorkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F85EA8A1223000E3002DC5EB /* Deep Work */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85EA8B0223000E3002DC5EB /* Build configuration list for PBXNativeTarget "Deep Work" */;
+			buildPhases = (
+				F85EA89E223000E3002DC5EB /* Sources */,
+				F85EA89F223000E3002DC5EB /* Frameworks */,
+				F85EA8A0223000E3002DC5EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Deep Work";
+			productName = Today;
+			productReference = F85EA8A2223000E3002DC5EB /* Deep Work.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F85EA863222FF902002DC5EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Upendra Tripathi";
+				TargetAttributes = {
+					F85EA86A222FF902002DC5EB = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					F85EA87E222FF903002DC5EB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F85EA86A222FF902002DC5EB;
+					};
+					F85EA889222FF903002DC5EB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F85EA86A222FF902002DC5EB;
+					};
+					F85EA8A1223000E3002DC5EB = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F85EA866222FF902002DC5EB /* Build configuration list for PBXProject "DeepWork" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F85EA862222FF902002DC5EB;
+			productRefGroup = F85EA86C222FF902002DC5EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F85EA86A222FF902002DC5EB /* DeepWork */,
+				F85EA87E222FF903002DC5EB /* DeepWorkTests */,
+				F85EA889222FF903002DC5EB /* DeepWorkUITests */,
+				F85EA8A1223000E3002DC5EB /* Deep Work */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F85EA869222FF902002DC5EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85EA879222FF903002DC5EB /* LaunchScreen.storyboard in Resources */,
+				F85EA876222FF903002DC5EB /* Assets.xcassets in Resources */,
+				F85EA874222FF902002DC5EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85EA87D222FF903002DC5EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85EA888222FF903002DC5EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85EA8A0223000E3002DC5EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85EA8AB223000E3002DC5EB /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75077F29E4480A2E3A54D2F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeepWork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F85EA867222FF902002DC5EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F878D1842244B129009715D0 /* SelectionOptionViewController.swift in Sources */,
+				F8ECE10E22463500001500E6 /* UPTHelper.swift in Sources */,
+				F8F5622122300E520078AD40 /* TemplatesViewController.swift in Sources */,
+				F85EA89D222FFA22002DC5EB /* TodayViewController.swift in Sources */,
+				F8ECE10A224632E4001500E6 /* FullScreenCounterViewController.swift in Sources */,
+				F85EA86F222FF902002DC5EB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85EA87B222FF903002DC5EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85EA884222FF903002DC5EB /* DeepWorkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85EA886222FF903002DC5EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85EA88F222FF903002DC5EB /* DeepWorkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85EA89E223000E3002DC5EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85EA8A8223000E3002DC5EB /* TodayViewController.swift in Sources */,
+				F8ECE10F22464154001500E6 /* UPTHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F85EA881222FF903002DC5EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F85EA86A222FF902002DC5EB /* DeepWork */;
+			targetProxy = F85EA880222FF903002DC5EB /* PBXContainerItemProxy */;
+		};
+		F85EA88C222FF903002DC5EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F85EA86A222FF902002DC5EB /* DeepWork */;
+			targetProxy = F85EA88B222FF903002DC5EB /* PBXContainerItemProxy */;
+		};
+		F85EA8AE223000E3002DC5EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F85EA8A1223000E3002DC5EB /* Deep Work */;
+			targetProxy = F85EA8AD223000E3002DC5EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F85EA872222FF902002DC5EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F85EA873222FF902002DC5EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F85EA877222FF903002DC5EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F85EA878222FF903002DC5EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F85EA8A9223000E3002DC5EB /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F85EA8AA223000E3002DC5EB /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F85EA891222FF903002DC5EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F85EA892222FF903002DC5EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F85EA894222FF903002DC5EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD76F5C501FADF22764C0B83 /* Pods-DeepWork.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DeepWork/DeepWork.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S684766MUT;
+				INFOPLIST_FILE = DeepWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.upendra.DeepWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F85EA895222FF903002DC5EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C1CE1E1476A8B9A2048C262 /* Pods-DeepWork.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DeepWork/DeepWork.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S684766MUT;
+				INFOPLIST_FILE = DeepWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.upendra.DeepWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F85EA897222FF903002DC5EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeepWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.upendra.DeepWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeepWork.app/DeepWork";
+			};
+			name = Debug;
+		};
+		F85EA898222FF903002DC5EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeepWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.upendra.DeepWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeepWork.app/DeepWork";
+			};
+			name = Release;
+		};
+		F85EA89A222FF903002DC5EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeepWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.upendra.DeepWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeepWork;
+			};
+			name = Debug;
+		};
+		F85EA89B222FF903002DC5EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeepWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.upendra.DeepWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeepWork;
+			};
+			name = Release;
+		};
+		F85EA8B1223000E3002DC5EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Today/Today.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S684766MUT;
+				INFOPLIST_FILE = Today/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.upendra.DeepWork.Today;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F85EA8B2223000E3002DC5EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Today/Today.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S684766MUT;
+				INFOPLIST_FILE = Today/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.upendra.DeepWork.Today;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F85EA866222FF902002DC5EB /* Build configuration list for PBXProject "DeepWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85EA891222FF903002DC5EB /* Debug */,
+				F85EA892222FF903002DC5EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F85EA893222FF903002DC5EB /* Build configuration list for PBXNativeTarget "DeepWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85EA894222FF903002DC5EB /* Debug */,
+				F85EA895222FF903002DC5EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F85EA896222FF903002DC5EB /* Build configuration list for PBXNativeTarget "DeepWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85EA897222FF903002DC5EB /* Debug */,
+				F85EA898222FF903002DC5EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F85EA899222FF903002DC5EB /* Build configuration list for PBXNativeTarget "DeepWorkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85EA89A222FF903002DC5EB /* Debug */,
+				F85EA89B222FF903002DC5EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F85EA8B0223000E3002DC5EB /* Build configuration list for PBXNativeTarget "Deep Work" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85EA8B1223000E3002DC5EB /* Debug */,
+				F85EA8B2223000E3002DC5EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F85EA863222FF902002DC5EB /* Project object */;
+}

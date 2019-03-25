@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "28db2e56be368859f47fe422f7724ace"
+build_time: [1553235834, 365960000]
+inputs:
+  "/Users/upendratripathi/Research/App Ideas/DeepWork/Today/TodayViewController.swift": [1551879792, 0]

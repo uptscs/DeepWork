@@ -1,0 +1,15 @@
+version: "Apple Swift version 5.0 (swiftlang-1001.0.60.3 clang-1001.0.37.8)"
+options: "9184aa14c9a49760683c8adba490d046"
+build_time: [1553333624, 891743000]
+inputs:
+  "/Users/upendratripathi/Research/App Ideas/DeepWork/Pods/FloatingPanel/Framework/Sources/FloatingPanel.swift": [9223372036, 854775807]
+  "/Users/upendratripathi/Research/App Ideas/DeepWork/Pods/FloatingPanel/Framework/Sources/FloatingPanelBackdropView.swift": [9223372036, 854775807]
+  "/Users/upendratripathi/Research/App Ideas/DeepWork/Pods/FloatingPanel/Framework/Sources/FloatingPanelBehavior.swift": [9223372036, 854775807]
+  "/Users/upendratripathi/Research/App Ideas/DeepWork/Pods/FloatingPanel/Framework/Sources/FloatingPanelController.swift": [9223372036, 854775807]
+  "/Users/upendratripathi/Research/App Ideas/DeepWork/Pods/FloatingPanel/Framework/Sources/FloatingPanelLayout.swift": [9223372036, 854775807]
+  "/Users/upendratripathi/Research/App Ideas/DeepWork/Pods/FloatingPanel/Framework/Sources/FloatingPanelSurfaceView.swift": [9223372036, 854775807]
+  "/Users/upendratripathi/Research/App Ideas/DeepWork/Pods/FloatingPanel/Framework/Sources/FloatingPanelTransitioning.swift": [9223372036, 854775807]
+  "/Users/upendratripathi/Research/App Ideas/DeepWork/Pods/FloatingPanel/Framework/Sources/FloatingPanelView.swift": [9223372036, 854775807]
+  "/Users/upendratripathi/Research/App Ideas/DeepWork/Pods/FloatingPanel/Framework/Sources/GrabberHandleView.swift": [9223372036, 854775807]
+  "/Users/upendratripathi/Research/App Ideas/DeepWork/Pods/FloatingPanel/Framework/Sources/Logger.swift": [9223372036, 854775807]
+  "/Users/upendratripathi/Research/App Ideas/DeepWork/Pods/FloatingPanel/Framework/Sources/UIExtensions.swift": [9223372036, 854775807]
