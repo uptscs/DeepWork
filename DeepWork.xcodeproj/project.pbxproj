@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		736DC9397E165B541A94AA2D /* libPods-DeepWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD777F196F68FA6B061334EE /* libPods-DeepWork.a */; };
+		9D40E2092A812644138AA32B /* Pods_Deep_Work.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA796024F79D5DDD76C867B8 /* Pods_Deep_Work.framework */; };
+		D2DF10519D54BC85A63ABC1B /* Pods_DeepWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACBD2A1959F222874C6B9C66 /* Pods_DeepWork.framework */; };
+		F81005BE2249D9730081FF78 /* UPTActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81005BD2249D9730081FF78 /* UPTActivity.swift */; };
+		F81005C0224A159F0081FF78 /* UPTActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81005BD2249D9730081FF78 /* UPTActivity.swift */; };
 		F85EA86F222FF902002DC5EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85EA86E222FF902002DC5EB /* AppDelegate.swift */; };
 		F85EA874222FF902002DC5EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85EA872222FF902002DC5EB /* Main.storyboard */; };
 		F85EA876222FF903002DC5EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85EA875222FF903002DC5EB /* Assets.xcassets */; };
@@ -65,9 +68,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		27FDAC2F495BD08735F364F9 /* Pods-Deep Work.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deep Work.release.xcconfig"; path = "Pods/Target Support Files/Pods-Deep Work/Pods-Deep Work.release.xcconfig"; sourceTree = "<group>"; };
 		5C1CE1E1476A8B9A2048C262 /* Pods-DeepWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeepWork/Pods-DeepWork.release.xcconfig"; sourceTree = "<group>"; };
+		AA796024F79D5DDD76C867B8 /* Pods_Deep_Work.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Deep_Work.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACBD2A1959F222874C6B9C66 /* Pods_DeepWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeepWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD76F5C501FADF22764C0B83 /* Pods-DeepWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeepWork/Pods-DeepWork.debug.xcconfig"; sourceTree = "<group>"; };
-		AD777F196F68FA6B061334EE /* libPods-DeepWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DeepWork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0586D09EFD4AA16F53E3E0 /* Pods-Deep Work.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deep Work.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Deep Work/Pods-Deep Work.debug.xcconfig"; sourceTree = "<group>"; };
+		F81005BD2249D9730081FF78 /* UPTActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPTActivity.swift; sourceTree = "<group>"; };
 		F85EA86B222FF902002DC5EB /* DeepWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F85EA86E222FF902002DC5EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F85EA873222FF902002DC5EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -99,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				736DC9397E165B541A94AA2D /* libPods-DeepWork.a in Frameworks */,
+				D2DF10519D54BC85A63ABC1B /* Pods_DeepWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F85EA8A5223000E3002DC5EB /* NotificationCenter.framework in Frameworks */,
+				9D40E2092A812644138AA32B /* Pods_Deep_Work.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +141,8 @@
 			children = (
 				AD76F5C501FADF22764C0B83 /* Pods-DeepWork.debug.xcconfig */,
 				5C1CE1E1476A8B9A2048C262 /* Pods-DeepWork.release.xcconfig */,
+				CD0586D09EFD4AA16F53E3E0 /* Pods-Deep Work.debug.xcconfig */,
+				27FDAC2F495BD08735F364F9 /* Pods-Deep Work.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -165,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				F8ECE109224632E4001500E6 /* FullScreenCounterViewController.swift */,
+				F81005BD2249D9730081FF78 /* UPTActivity.swift */,
 				F8ECE10D22463500001500E6 /* UPTHelper.swift */,
 				F8A50E2E2230033F00625A95 /* DeepWork.entitlements */,
 				F85EA86E222FF902002DC5EB /* AppDelegate.swift */,
@@ -201,7 +212,8 @@
 			isa = PBXGroup;
 			children = (
 				F85EA8A4223000E3002DC5EB /* NotificationCenter.framework */,
-				AD777F196F68FA6B061334EE /* libPods-DeepWork.a */,
+				ACBD2A1959F222874C6B9C66 /* Pods_DeepWork.framework */,
+				AA796024F79D5DDD76C867B8 /* Pods_Deep_Work.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -229,6 +241,7 @@
 				F85EA868222FF902002DC5EB /* Frameworks */,
 				F85EA869222FF902002DC5EB /* Resources */,
 				F85EA8B3223000E3002DC5EB /* Embed App Extensions */,
+				DDD316D30250200EEA5ADD18 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -280,6 +293,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F85EA8B0223000E3002DC5EB /* Build configuration list for PBXNativeTarget "Deep Work" */;
 			buildPhases = (
+				8B3EB443C8B9B4E918139D81 /* [CP] Check Pods Manifest.lock */,
 				F85EA89E223000E3002DC5EB /* Sources */,
 				F85EA89F223000E3002DC5EB /* Frameworks */,
 				F85EA8A0223000E3002DC5EB /* Resources */,
@@ -408,6 +422,54 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		8B3EB443C8B9B4E918139D81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Deep Work-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDD316D30250200EEA5ADD18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DeepWork/Pods-DeepWork-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FloatingPanel/FloatingPanel.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FloatingPanel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeepWork/Pods-DeepWork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -417,6 +479,7 @@
 			files = (
 				F878D1842244B129009715D0 /* SelectionOptionViewController.swift in Sources */,
 				F8ECE10E22463500001500E6 /* UPTHelper.swift in Sources */,
+				F81005BE2249D9730081FF78 /* UPTActivity.swift in Sources */,
 				F8F5622122300E520078AD40 /* TemplatesViewController.swift in Sources */,
 				F85EA89D222FFA22002DC5EB /* TodayViewController.swift in Sources */,
 				F8ECE10A224632E4001500E6 /* FullScreenCounterViewController.swift in Sources */,
@@ -445,6 +508,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F85EA8A8223000E3002DC5EB /* TodayViewController.swift in Sources */,
+				F81005C0224A159F0081FF78 /* UPTActivity.swift in Sources */,
 				F8ECE10F22464154001500E6 /* UPTHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -735,6 +799,7 @@
 		};
 		F85EA8B1223000E3002DC5EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD0586D09EFD4AA16F53E3E0 /* Pods-Deep Work.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = Today/Today.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -755,6 +820,7 @@
 		};
 		F85EA8B2223000E3002DC5EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27FDAC2F495BD08735F364F9 /* Pods-Deep Work.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = Today/Today.entitlements;
 				CODE_SIGN_STYLE = Automatic;

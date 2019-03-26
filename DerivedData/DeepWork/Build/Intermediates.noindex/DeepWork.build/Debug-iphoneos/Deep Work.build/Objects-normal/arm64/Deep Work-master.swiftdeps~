@@ -1,6 +1,0 @@
-version: "Apple Swift version 5.0 (swiftlang-1001.0.60.3 clang-1001.0.37.8)"
-options: "ff2cc7b194827bf50c47f420db078da4"
-build_time: [1553340837, 693564000]
-inputs:
-  "/Users/upendratripathi/Research/App Ideas/DeepWork/Today/TodayViewController.swift": [1553340837, 646563698]
-  "/Users/upendratripathi/Research/App Ideas/DeepWork/DeepWork/UPTHelper.swift": [1553339995, 798801546]

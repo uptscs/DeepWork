@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RealmSwift
 
 extension TimeInterval {
     func HHMMSS() -> (hour: Int, minute: Int, second:Int) {
@@ -63,5 +64,13 @@ class RepeatingTimer {
          */
         resume()
         eventHandler = nil
+    }
+}
+
+extension Realm{
+    static var realmInstance: Realm {
+        let fileURL = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.DeepWork")!.appendingPathComponent("db.realm")
+        let config = Realm.Configuration(fileURL: fileURL)
+        return try! Realm(configuration: config)
     }
 }

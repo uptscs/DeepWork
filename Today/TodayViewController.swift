@@ -8,32 +8,57 @@
 
 import UIKit
 //import AudioToolbox
+import RealmSwift
 
 import NotificationCenter
 
 class TodayViewController: UIViewController, NCWidgetProviding {
     private var heartbeatTimer: RepeatingTimer?
     private var startDate = Date()
-    private var activityDate = Calendar.current.date(byAdding: .second, value: 602, to: Date())
+    private var activityDate: Date?
 
     @IBOutlet weak var lblActivityTitle: UILabel!
-    
     @IBOutlet weak var lblActivityCounter: UILabel!
-    var currentActivityTitle = ""
+
+    lazy var activities: Results<UPTActivity> = {
+        Realm.realmInstance.objects(UPTActivity.self)
+    }()
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view from its nib.
-        let userDefault = UserDefaults(suiteName: "group.DeepWork")
-        let activity = userDefault?.value(forKey: "CurrentActivity")
-        if let activity = activity {
-            currentActivityTitle = activity as? String ?? "-"
-        }
+        print(Realm.realmInstance.configuration.description)
     }
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        lblActivityTitle.text = currentActivityTitle
-        startTimer()
+        let activity = getCurrentActivity()
+        if let currentActivity = activity {
+            lblActivityTitle.text = currentActivity.name
+            activityDate = currentActivity.endDateTime
+            startTimer()
+        }else{
+            lblActivityTitle.text = "No activity scheduled currently!"
+            lblActivityCounter.text = "- : - : -"
+        }
     }
+    
+    private func isCurrentActivity(_ activity: UPTActivity) -> Bool{
+        let now = Date()
+        if activity.startDateTime <= now && activity.endDateTime >= now {
+            return true
+        }
+        return false
+    }
+    
+    private func getCurrentActivity() -> UPTActivity?{
+        for activity in activities{
+            if isCurrentActivity(activity){
+                print(activity.name)
+                return activity
+            }
+        }
+        return nil
+    }
+    
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         stopTimer()
