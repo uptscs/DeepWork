@@ -11,6 +11,9 @@
 		D2DF10519D54BC85A63ABC1B /* Pods_DeepWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACBD2A1959F222874C6B9C66 /* Pods_DeepWork.framework */; };
 		F81005BE2249D9730081FF78 /* UPTActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81005BD2249D9730081FF78 /* UPTActivity.swift */; };
 		F81005C0224A159F0081FF78 /* UPTActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81005BD2249D9730081FF78 /* UPTActivity.swift */; };
+		F8284C7C224B752400792C9B /* AddBookmarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8284C7B224B752400792C9B /* AddBookmarkViewController.swift */; };
+		F8284C7E224B770700792C9B /* UPTBookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8284C7D224B770700792C9B /* UPTBookmark.swift */; };
+		F8284C80224B782100792C9B /* BookmarkListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8284C7F224B782100792C9B /* BookmarkListViewController.swift */; };
 		F85EA86F222FF902002DC5EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85EA86E222FF902002DC5EB /* AppDelegate.swift */; };
 		F85EA874222FF902002DC5EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85EA872222FF902002DC5EB /* Main.storyboard */; };
 		F85EA876222FF903002DC5EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85EA875222FF903002DC5EB /* Assets.xcassets */; };
@@ -22,6 +25,8 @@
 		F85EA8A8223000E3002DC5EB /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85EA8A7223000E3002DC5EB /* TodayViewController.swift */; };
 		F85EA8AB223000E3002DC5EB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85EA8A9223000E3002DC5EB /* MainInterface.storyboard */; };
 		F85EA8AF223000E3002DC5EB /* Deep Work.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F85EA8A2223000E3002DC5EB /* Deep Work.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F86D64A8224A44BC008777B9 /* AddActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86D64A7224A44BC008777B9 /* AddActivityViewController.swift */; };
+		F86D64AA224A452E008777B9 /* DateTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86D64A9224A452E008777B9 /* DateTimeViewController.swift */; };
 		F878D1842244B129009715D0 /* SelectionOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F878D1832244B129009715D0 /* SelectionOptionViewController.swift */; };
 		F8ECE10A224632E4001500E6 /* FullScreenCounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ECE109224632E4001500E6 /* FullScreenCounterViewController.swift */; };
 		F8ECE10E22463500001500E6 /* UPTHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ECE10D22463500001500E6 /* UPTHelper.swift */; };
@@ -75,6 +80,9 @@
 		AD76F5C501FADF22764C0B83 /* Pods-DeepWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeepWork/Pods-DeepWork.debug.xcconfig"; sourceTree = "<group>"; };
 		CD0586D09EFD4AA16F53E3E0 /* Pods-Deep Work.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deep Work.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Deep Work/Pods-Deep Work.debug.xcconfig"; sourceTree = "<group>"; };
 		F81005BD2249D9730081FF78 /* UPTActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPTActivity.swift; sourceTree = "<group>"; };
+		F8284C7B224B752400792C9B /* AddBookmarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookmarkViewController.swift; sourceTree = "<group>"; };
+		F8284C7D224B770700792C9B /* UPTBookmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPTBookmark.swift; sourceTree = "<group>"; };
+		F8284C7F224B782100792C9B /* BookmarkListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkListViewController.swift; sourceTree = "<group>"; };
 		F85EA86B222FF902002DC5EB /* DeepWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F85EA86E222FF902002DC5EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F85EA873222FF902002DC5EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -93,6 +101,8 @@
 		F85EA8A7223000E3002DC5EB /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		F85EA8AA223000E3002DC5EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		F85EA8AC223000E3002DC5EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F86D64A7224A44BC008777B9 /* AddActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddActivityViewController.swift; path = DeepWork/AddActivityViewController.swift; sourceTree = "<group>"; };
+		F86D64A9224A452E008777B9 /* DateTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeViewController.swift; sourceTree = "<group>"; };
 		F878D1832244B129009715D0 /* SelectionOptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SelectionOptionViewController.swift; path = "/Users/upendratripathi/Research/App Ideas/DeepWork/DeepWork/SelectionOptionViewController.swift"; sourceTree = "<absolute>"; };
 		F8A50E2E2230033F00625A95 /* DeepWork.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DeepWork.entitlements; sourceTree = "<group>"; };
 		F8A50E2F223003E700625A95 /* Today.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Today.entitlements; sourceTree = "<group>"; };
@@ -150,6 +160,8 @@
 		F85EA862222FF902002DC5EB = {
 			isa = PBXGroup;
 			children = (
+				F86D64A7224A44BC008777B9 /* AddActivityViewController.swift */,
+				F86D64A9224A452E008777B9 /* DateTimeViewController.swift */,
 				F85EA86D222FF902002DC5EB /* DeepWork */,
 				F85EA882222FF903002DC5EB /* DeepWorkTests */,
 				F85EA88D222FF903002DC5EB /* DeepWorkUITests */,
@@ -175,6 +187,9 @@
 			isa = PBXGroup;
 			children = (
 				F8ECE109224632E4001500E6 /* FullScreenCounterViewController.swift */,
+				F8284C7B224B752400792C9B /* AddBookmarkViewController.swift */,
+				F8284C7D224B770700792C9B /* UPTBookmark.swift */,
+				F8284C7F224B782100792C9B /* BookmarkListViewController.swift */,
 				F81005BD2249D9730081FF78 /* UPTActivity.swift */,
 				F8ECE10D22463500001500E6 /* UPTHelper.swift */,
 				F8A50E2E2230033F00625A95 /* DeepWork.entitlements */,
@@ -477,13 +492,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8284C80224B782100792C9B /* BookmarkListViewController.swift in Sources */,
 				F878D1842244B129009715D0 /* SelectionOptionViewController.swift in Sources */,
 				F8ECE10E22463500001500E6 /* UPTHelper.swift in Sources */,
+				F8284C7E224B770700792C9B /* UPTBookmark.swift in Sources */,
 				F81005BE2249D9730081FF78 /* UPTActivity.swift in Sources */,
 				F8F5622122300E520078AD40 /* TemplatesViewController.swift in Sources */,
+				F86D64AA224A452E008777B9 /* DateTimeViewController.swift in Sources */,
 				F85EA89D222FFA22002DC5EB /* TodayViewController.swift in Sources */,
 				F8ECE10A224632E4001500E6 /* FullScreenCounterViewController.swift in Sources */,
 				F85EA86F222FF902002DC5EB /* AppDelegate.swift in Sources */,
+				F8284C7C224B752400792C9B /* AddBookmarkViewController.swift in Sources */,
+				F86D64A8224A44BC008777B9 /* AddActivityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -687,6 +707,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S684766MUT;
 				INFOPLIST_FILE = DeepWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -708,6 +729,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S684766MUT;
 				INFOPLIST_FILE = DeepWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

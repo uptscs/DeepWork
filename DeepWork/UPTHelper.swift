@@ -74,3 +74,79 @@ extension Realm{
         return try! Realm(configuration: config)
     }
 }
+
+extension Date{
+    func remainingDaysFromToday() -> Int?{
+        var calendar = NSCalendar.current
+        calendar.timeZone = NSTimeZone.local
+
+        // Replace the hour (time) of both dates with 00:00
+        let date1 = calendar.startOfDay(for: Date())
+        let date2 = calendar.startOfDay(for:self)
+        let components = calendar.dateComponents([.day], from: date1, to: date2)
+        return components.day
+
+    }
+    func toString() -> String{
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd hh:mm a"
+        dateFormatter.amSymbol = "AM"
+        dateFormatter.pmSymbol = "PM"
+        return dateFormatter.string(from: self)
+    }
+    
+    func toAMPMOnlyString() -> String{
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "hh:mm a"
+        dateFormatter.amSymbol = "AM"
+        dateFormatter.pmSymbol = "PM"
+        return dateFormatter.string(from: self)
+    }
+
+    func addMinutes(_ minutes: Int) -> Date? {
+        var calendar = NSCalendar.current
+        calendar.timeZone = NSTimeZone.local
+        return Calendar.current.date(byAdding: .minute, value: minutes, to: self)
+    }
+}
+
+extension String{
+    var inMinute: Int {
+        get {
+            var duration = 0
+            switch self {
+            case "5 Minutes":
+                duration = 5
+            case "10 Minutes":
+                duration = 10
+            case "15 Minutes":
+                duration = 15
+            case "20 Minutes":
+                duration = 20
+            case "30 Minutes":
+                duration = 30
+            case "45 Minutes":
+                duration = 45
+            case "1 Hour":
+                duration = 60
+            case "2 Hours":
+                duration = 120
+            case "3 Hours":
+                duration = 180
+            case "4 Hours":
+                duration = 240
+            case "5 Hours":
+                duration = 300
+            case "8 Hours":
+                duration = 480
+            case "10 Hours":
+                duration = 600
+            case "12 Hours":
+                duration = 720
+            default:
+                duration = 0
+            }
+            return duration
+        }
+    }
+}
